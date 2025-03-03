@@ -13,8 +13,8 @@
 /* Fonts */
 :root {
   --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --heading-font: "Raleway",  sans-serif;
-  --nav-font: "Poppins",  sans-serif;
+  --heading-font: "Roboto",  sans-serif;
+  --nav-font: "Roboto",  sans-serif;
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
@@ -445,7 +445,7 @@ section,
 # Global Section Titles
 --------------------------------------------------------------*/
 .section-title {
-  padding-bottom: 60px;
+  padding-bottom: 30px;
   position: relative;
 }
 
@@ -628,9 +628,9 @@ section,
   color: var(--heading-color);
   padding: 0;
   margin: 0 0 6px 0;
-  text-transform: uppercase;
   display: block;
-  font-weight: 600;
+  font-size: 1.1rem;
+  font-weight: 400;
   font-family: var(--heading-font);
 }
 
@@ -1070,4 +1070,7 @@ section,
 --------------------------------------------------------------*/
 .starter-section {
   /* Add your styles here */
+}
+.root{
+  font-family:var(Roboto);
 }
